@@ -16,7 +16,7 @@ age = 39
 
 print(f"I'm {age} years old")
 
-radius  = float(input("Enter the radius to calculate:\n"))
+radius = float(input("Enter the radius to calculate:\n"))
 print(pi * radius**2)
 
 c = 10
