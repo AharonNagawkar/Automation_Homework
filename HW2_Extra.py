@@ -71,3 +71,13 @@ for row in range(1, n+1):
     stars = 2*row - 1
     print(" " * spaces, end='')
     print("*" * stars)
+
+
+# Exercise 10
+print('Exercise 10:')
+user_list = []
+user_input = input("enter a string:")
+while user_input != 'done':
+    user_list.append(user_input)
+    user_input = input("enter a string:")
+[print(elem) for elem in user_list if len(elem) > 3]
